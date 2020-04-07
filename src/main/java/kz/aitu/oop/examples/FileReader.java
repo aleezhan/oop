@@ -13,7 +13,7 @@ public class FileReader {
 
     public String getFile() throws FileNotFoundException {
 
-        File file = new File("/Users/alizhan/Desktop/in.rtf ");
+        File file = new File("/Users/alizhan/Desktop/OOP/input.txt ");
         Scanner sc = new Scanner(file);
 
         String result = "";
